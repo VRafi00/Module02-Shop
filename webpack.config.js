@@ -24,7 +24,7 @@ module.exports = ({develop}) => ({
           template: './src/index.html'
       }),
       new MiniCssExtractPlugin ({
-          filename: '.styles/main.css'
+          filename: './styles/main.css'
       })
   ],
   module: {
